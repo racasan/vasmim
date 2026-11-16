@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vasmim">
+  <!-- three notes on a board, joined by a connector -->
+  <rect x="4" y="4" width="56" height="56" rx="13" fill="#2f4a3a"/>
+  <path d="M24 24 L42 40" stroke="#f7f2e8" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <rect x="12" y="13" width="22" height="18" rx="4" fill="#ffe27a"/>
+  <rect x="34" y="34" width="19" height="17" rx="4" fill="#bfe3ff"/>
+  <rect x="13" y="38" width="14" height="12" rx="3.5" fill="#f6c8dc"/>
+</svg>
