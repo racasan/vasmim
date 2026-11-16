@@ -1,6 +1,18 @@
+# Vasmim 0.1.0-beta.3
+
+Application version 0.1.0-beta.3+4; Board format 31. Windows x64, portable ZIP.
+
+## Changed in this release
+
+- Vasmim has its own app icon, shown on `vasmim.exe`, the window, and the
+  taskbar. Earlier builds used Flutter's default logo.
+
+Nothing else changed. Boards from 0.1.0-beta.2 open unchanged; replace the
+whole program folder rather than copying files over the old one.
+
 # Vasmim 0.1.0-beta.2 — first public release
 
-Application version 0.1.0-beta.2+3; Board format 31. Windows x64, portable ZIP.
+Application version 0.1.0-beta.2+3; Board format 31.
 
 Vasmim is free software provided as is, without warranty or promised support.
 Read INSTALL.md before running it and keep independent backups of your Boards.

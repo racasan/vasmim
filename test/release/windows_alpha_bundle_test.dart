@@ -41,13 +41,13 @@ void main() {
           .cast<File>()
           .toList();
       expect(files.map((file) => _basename(file.path)).toSet(), {
-        'Vasmim-Windows-0.1.0-beta.2+3-x64.zip',
-        'Vasmim-Windows-0.1.0-beta.2+3-x64.zip.sha256',
+        'Vasmim-Windows-0.1.0-beta.3+4-x64.zip',
+        'Vasmim-Windows-0.1.0-beta.3+4-x64.zip.sha256',
       });
 
       final zipFile = File(
         '${outputDirectory.path}${Platform.pathSeparator}'
-        'Vasmim-Windows-0.1.0-beta.2+3-x64.zip',
+        'Vasmim-Windows-0.1.0-beta.3+4-x64.zip',
       );
       final archive = ZipDecoder().decodeBytes(
         await zipFile.readAsBytes(),
@@ -56,7 +56,7 @@ void main() {
       final paths = archive.files
           .map((entry) => entry.name.replaceAll('\\', '/'))
           .toSet();
-      const bundleRoot = 'Vasmim-Windows-0.1.0-beta.2+3-x64';
+      const bundleRoot = 'Vasmim-Windows-0.1.0-beta.3+4-x64';
       expect(paths, contains('$bundleRoot/vasmim.exe'));
       expect(paths, contains('$bundleRoot/flutter_windows.dll'));
       expect(paths, contains('$bundleRoot/file_selector_windows_plugin.dll'));
@@ -67,7 +67,7 @@ void main() {
 
       final checksum = await File('${zipFile.path}.sha256').readAsString();
       final match = RegExp(
-        r'^([A-F0-9]{64})  Vasmim-Windows-0\.1\.0-beta\.2\+3-x64\.zip\r?\n?$',
+        r'^([A-F0-9]{64})  Vasmim-Windows-0\.1\.0-beta\.3\+4-x64\.zip\r?\n?$',
       ).firstMatch(checksum);
       expect(match, isNotNull);
       final hashResult = await Process.run(
@@ -146,7 +146,7 @@ void main() {
       expect(result.exitCode, 0, reason: '${result.stdout}\n${result.stderr}');
       final zipFile = File(
         '${outputDirectory.path}${Platform.pathSeparator}'
-        'Vasmim-Windows-0.1.0-beta.2+3-x64.zip',
+        'Vasmim-Windows-0.1.0-beta.3+4-x64.zip',
       );
       final archive = ZipDecoder().decodeBytes(
         await zipFile.readAsBytes(),

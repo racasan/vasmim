@@ -1,3 +1,5 @@
+<img src="docs/images/icon-256.png" alt="" width="88" align="right">
+
 # Vasmim
 
 **A spacious board for everything you're working on.**
@@ -114,7 +116,7 @@ A fuller guide is in [docs/VASMIM_MANUAL.md](docs/VASMIM_MANUAL.md).
 ## Platform and data
 
 - Windows x64 desktop only.
-- Version `0.1.0-beta.2+3`; Board document format 31, with migrations from
+- Version `0.1.0-beta.3+4`; Board document format 31, with migrations from
   formats 1-30.
 - Boards are stored below the Windows application-data directory as
   `boards/<board-id>/board.json` plus a Board-local `assets/` directory.

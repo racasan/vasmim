@@ -5,7 +5,7 @@ Images, reference documents, audio and movie references, and YouTube links on
 spacious Boards. Connect Notes and Images, organize related material, and save
 named views.
 
-Target: Windows x64. Application version 0.1.0-beta.2+3; Board format 31.
+Target: Windows x64. Application version 0.1.0-beta.3+4; Board format 31.
 
 Start with [installation](INSTALL.md), then the [quick start](QUICK_START.md).
 Read [known limitations](KNOWN_LIMITATIONS.md), [privacy](PRIVACY.md), and

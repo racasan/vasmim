@@ -1,6 +1,6 @@
 # Vasmim User Manual
 
-Windows desktop edition | Version 0.1.0-beta.2
+Windows desktop edition | Version 0.1.0-beta.3
 
 Vasmim is a local-first visual thinking app for Windows. It brings editable Notes, reference Images, documents, audio, movies, and YouTube links onto spacious Boards, where you can arrange ideas, connect related material, and build visual project plans. Named Scenes help you revisit and present particular views. Portable Board files and clean image exports let you carry or share your work.
 
