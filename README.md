@@ -1,15 +1,40 @@
 # Vasmim
 
-Vasmim is a local-first visual thinking application for Windows, built with
-Flutter. It combines freeform spatial planning, lightweight structure, and
-managed reference material on spacious Boards, without an account or a cloud
-service.
+**A spacious board for everything you're working on.**
 
-![A story-planning Board in Dark mode](docs/images/board-dark.png)
+Lay out notes, pictures, documents, and links, connect what belongs together,
+and come back to it later. Vasmim is for projects that don't fit in a list:
+stories, campaigns, launches, research, plans. It is a free Windows app with no
+account and no cloud; your work stays on your own computer.
 
-![A website-launch Board in Light mode](docs/images/board-light.png)
+**[Download for Windows](https://github.com/racasan/vasmim/releases/latest)**
+· [User manual](docs/VASMIM_MANUAL.md) · [Sample Boards](samples/)
 
-The Boards shown are fictional sample projects.
+![A story-planning Board in Dark mode, with an image, notes, and connected story beats](docs/images/board-dark.png)
+
+## Everything in one place
+
+| | |
+| --- | --- |
+| **Notes, images, and headings**<br>Write freely, drop in pictures and GIFs, and give your Board a clear structure. | **Connect your thinking**<br>Draw labelled connections between notes and images to show how ideas relate. |
+| **Documents and media**<br>Keep PDFs, Office files, audio, video, and YouTube links right next to the notes they belong to. | **Ready-made starters**<br>Begin from a blank Board, a Kanban, an Eisenhower matrix, a SWOT, or a campaign brief. |
+| **Find your way back**<br>Search one Board or your whole Library, and save named views to return to. | **Careful with your work**<br>Autosave, a recovery copy of the previous save, and backups you can verify, all on your own computer. |
+
+![A website-launch Board in Light mode, arranged as a Kanban with decisions below](docs/images/board-light.png)
+
+![A campaign-brief Board with a reference image, the brief, and a rollout plan](docs/images/board-campaign.png)
+
+The Boards shown are fictional sample projects. You can open them yourself:
+see [Sample Boards](samples/).
+
+## Good to know
+
+| | |
+| --- | --- |
+| **Price** | Free. No payment, no account, no sign-in. |
+| **Private** | No cloud and no tracking. Your Boards live on your PC. |
+| **System** | Windows 10 or 11, 64-bit. Developed and tested mainly on Windows 10. |
+| **Status** | Beta, provided as is. A personal project with no promised support. |
 
 ## Download
 
