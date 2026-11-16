@@ -1,0 +1,4 @@
+# Preserve collected upstream legal materials byte-for-byte, including whitespace.
+release/CLIPBOARD_THIRD_PARTY_NOTICES.txt -text -whitespace
+release/RUST_RUNTIME_LICENSES.txt -text -whitespace
+release/RUST_STDLIB_NOTICES.html -text -whitespace

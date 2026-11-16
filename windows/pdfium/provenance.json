@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "version": "158.0.8125.0",
+  "architecture": "windows-x64",
+  "archiveUrl": "https://github.com/bblanchon/pdfium-binaries/releases/download/chromium/8125/pdfium-win-x64.tgz",
+  "archiveSha256": "9a964261760cff52570aabf038ab346d3a5034dd8b30d0d5fe8861235d356b8b",
+  "dllSha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994",
+  "recipeCommit": "4bdb7acd45b39ef6a7fc2a5b4c83f0398e45c9a6",
+  "v8": false,
+  "xfa": false,
+  "noticeFiles": 18,
+  "checkedDate": "2026-10-29"
+}
